@@ -12,7 +12,6 @@ attr_accessor :school, :roster
 
   def add_student (student, grade)
       roster[grade] ||= []
-      binding.pry
       roster[grade] << student
   end
 
